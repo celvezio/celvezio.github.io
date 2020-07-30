@@ -779,7 +779,7 @@ button:focus {
     border: 1px solid #979797;
 }
 .pub-item .title {
-    font-size: 14px;
+    font-size: 18px;
     color: #636363;
     margin-bottom: 5px;
     font-weight: bold;
@@ -792,7 +792,7 @@ button:focus {
     color: #27B4DF;
 }
 .pub-item .description {
-    font-size: 12px;
+    font-size: 14px;
 }
 .pub-item .description p {
     line-height: 18px;
@@ -1089,27 +1089,28 @@ ul.np {
  */
 .ol-timeline {
     border-left: 1px solid #e8e8e8;
-    margin-left: 70px;
+    margin-left: 115px;
     padding: 60px 0;
     position: relative;
 }
 .ol-timeline .tl-item {
     position: relative;
-    margin-left: 40px;
+    margin-left: 15px;
     margin-bottom: 5px;
 }
 .ol-timeline .tl-item:before {
     content: '';
-    width: 40px;
+    width: 20px;
     height: 1px;
     background-color: #e8e8e8;
     position: absolute;
     top: 9px;
-    left: -40px;
+    left: -30px;
 }
 .ol-timeline .tl-item.pub-item {
     border-bottom: none;
     padding-bottom: 0;
+	margin-left: 30px;
 }
 .ol-timeline .tl-item.pub-item .content-wrapper {
     margin-left: 5px;
@@ -1134,7 +1135,7 @@ ul.np {
     border-color: #e8e8e8;
 }
 .ol-timeline .tl-item.pub-item.with-icon .item-section {
-    top: 12px;
+    top: 10px;
 }
 .ol-timeline .tl-item.pub-item.with-icon .content-wrapper {
     margin-left: 70px;
@@ -1157,9 +1158,9 @@ ul.np {
     display: block;
     top: 0;
     left: 0;
-    margin-left: -130px;
+    margin-left: -135px;
     text-align: right;
-    width: 70px;
+    width: 92px;
     word-wrap: break-word;
     font-family: "Play",sans-serif;
 }
@@ -1170,7 +1171,7 @@ ul.np {
     height: 14px;
     margin-top: -7px;
     top: 50%;
-    right: -27px;
+    right: -20px;
     border-radius: 50%;
     background-color: #e8e8e8;
     transition: all 0.3s ease;
