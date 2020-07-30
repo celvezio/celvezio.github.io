@@ -1,1123 +1,832 @@
-<!-- =======================================================================
-* Template Name: Tiba - Vcard Personal Portfolio Template
-* Author: mustafa729
-* Author URI: https://themeforest.net/user/mustafa729
-* Version: 1.0
-* Tags: html, Parallax, template, Portfolio, marketing, Personal, IMOZAR
-========================================================================== 
-
-Table of content
-1. Navigation 
-2. About
-3. Resume
-4. Services
-5. Portfolio
-6. Testimonials
-7. blog
-8. Contact
-
-========================================================================== -->
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Carmine Elvezio</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Carmine Elvezio" />
+		
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Tiba - Vcard Personal Template</title>
+        <link rel="shortcut icon" href="images/favicon.ico">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800" rel="stylesheet">
-    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="css/line-awesome.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+        <!--Bootstrap Css-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 
-<body>
+        <!-- Materialdesign icons Css -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet">
 
-    <div class="page-layout">
-        <div class="mobile-menu">
-            <div class="logo">TIBA.</div>
-            <div class="icon-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-                
-            <ul class="m-menu menu-links">
-                <li class="link-t active">
-                    <a href="#" data-link="about">
-                        <i class="pe-7s-user"></i>
-                        <span class="link-t-n">about</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="resume">
-                        <i class="pe-7s-id"></i>
-                        <span class="link-t-n">Resume</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="portfolio">
-                        <i class="pe-7s-portfolio"></i>
-                        <span class="link-t-n">Portfolio</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="blog">
-                        <i class="pe-7s-news-paper"></i>
-                        <span class="link-t-n">blog</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="contact">
-                        <i class="pe-7s-mail"></i>
-                        <span class="link-t-n">Contact</span> 
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="menu">
-            <div class="logo">TIBA.</div>
-            <ul class="menu-links">
-                <li class="link-t active">
-                    <a href="#" data-link="about">
-                        <i class="pe-7s-user"></i>
-                        <span class="link-t-n">about</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="resume">
-                        <i class="pe-7s-id"></i>
-                        <span class="link-t-n">Resume</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="portfolio">
-                        <i class="pe-7s-portfolio"></i>
-                        <span class="link-t-n">Portfolio</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="blog">
-                        <i class="pe-7s-news-paper"></i>
-                        <span class="link-t-n">blog</span> 
-                    </a>
-                </li>
-                <li class="link-t ">
-                    <a href="#" data-link="contact">
-                        <i class="pe-7s-mail"></i>
-                        <span class="link-t-n">Contact</span> 
-                    </a>
-                </li>
-            </ul>
-            <div class="show-icon">
-                <i class="la la-arrow-right"></i>
+        <!-- Mobirise icons Css -->
+        <link href="css/mobiriseicons.css" rel="stylesheet"> 
+
+        <!-- Magnific-popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <!-- Animate Css -->
+        <link rel="stylesheet" href="css/animate.min.css">
+
+        <!-- OWL SLIDER -->
+        <link rel="stylesheet" href="css/owl.carousel.css" />
+        <link rel="stylesheet" href="css/owl.theme.css" />
+        <link rel="stylesheet" href="css/owl.transitions.css" />
+
+        <!-- Custom style Css -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/color/default.css" rel="stylesheet" id="option-color">
+    </head>
+
+    <body>
+
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">Loading...</div>
             </div>
         </div>
-        <div class="vcard-box">
-            <div class="avatar-image">
-                <img src="http://via.placeholder.com/200x200" alt="user-photo">
-            </div>
-            <div class="short-info">
-                <h2 class="tib-name">Alex Smith</h2>
-                <h5>UI/UX DESINGER</h5>
-                <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                    <g>
-                      <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                    </g>
-                </svg>
-                <p>You will begin to realise why this 
-                    exercise is called the dichens pattem 
-                    (with reference to the ghost showing 
-                    scrooge some different futures)</p>
-                <ul class="social-media">
-                    <li class="social-icon">
-                        <a href="#"><i class="la la-facebook-f"></i></a>
-                    </li>
-                    <li class="social-icon">
-                        <a href="#"><i class="la la-dribbble"></i></a>
-                    </li>
-                    <li class="social-icon">
-                        <a href="#"><i class="la la-behance"></i></a>
-                    </li>
-                    <li class="social-icon">
-                        <a href="#"><i class="la la-instagram"></i></a>
-                    </li>
-                    <li class="social-icon">
-                        <a href="#"><i class="la la-whatsapp"></i></a>
-                    </li>
-                </ul>
-                <div class="tiba-btn-box">
-                    <a href="#" class="btn tiba-btn">download resume</a>
+
+        <!-- Start Navbar -->
+    	<nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+            <div class="container">
+
+                <a class="navbar-brand pt-0 logo" href="#">
+                    <img src="images/logo.png" alt="" class="img-fluid logo-light">
+                    <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+<!--
+                        <li class="nav-item">
+                            <a class="nav-link" href="#client">Client</a>
+                        </li>
+-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#publications">Publications</a>
+                        </li>
+<!--
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+-->
+                    </ul>
                 </div>
             </div>
-            <div class="copyright">
-                <p>© Arwa  2020 . All rights reserved.</p>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- START HOME -->
+		<!--
+        <section class="section header-bg-img h-100vh" id="home">
+            <div class="bg-overlay"></div>
+            <div class="header-table">
+                <div class="header-table-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="text-center header-content mx-auto">
+                                    <h4 class="text-white first-title mb-4">Welcome</h4>
+                                    <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="element font-weight-bold" data-elements="Kerri Deo.,A Graphic Designer.,A Photographer."></span></h1>
+                                    <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                                    <div class="mt-4 pt-2">
+                                        <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="scroll_down">
+                <a href="#about" class="scroll">
+                    <i class="text-white"></i>
+                </a>
             </div>
-            <div class="hide-icon">
-                <i class="la la-arrow-left"></i>
+        </section>
+-->
+        <!-- END HOME -->
+
+        <!-- START ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="mt-3">
+                            <img src="images/profile/profile_pic.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mt-3">
+                            <h2><span class="font-weight-bold">About</span> Me</h2>
+                            <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'm Carmine Elvezio.</span></h4>
+                            <p class="text-muted mt-4">Hello! I'm a PhD Student at the Computer Graphics and User Interfaces Lab at Columbia University, studying AR/VR/XR, 3D graphics, interactions and visualization techniques, under the supervision of Prof. Steven Feiner.</p>
+                            <p class="text-muted mt-2">Currently, with my research team, I am developing real-time interactive systems for urban visualization and planning, non-interventional medical procedures, simulation of various degenerative visual impairments, notifications in immersive environments, immersive diagnostic and rehabilitative games for patients of neuro-degenerative diseases, enhanced lighting simulations in AR, and several frameworks designed to facilitate the creation of these systems.</p>
+                            <p class="text-muted mt-2">I work with a number of technologies including Microsoft HoloLens, Oculus Rift, Unity, Unreal, OpenGL, and many more!</p>
+                            <div>
+                                <ul class="mb-0 about-social list-inline mt-4">
+                                    <li class="list-inline-item"><a href="www.linkedin.com/in/carmine-elvezio-23711a14"><i class="mdi mdi-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/ce2236"><i class="mdi mdi-github-circle"></i></a></li>
+								  <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=kp4b3qQAAAAJ"><i class="ai ai-google-scholar-square ai-1x"></i></a></li>
+									<li class="list-inline-item"><a href="https://www.researchgate.net/profile/Carmine_Elvezio"><i class="ai ai-researchgate ai"></i></a></li>
+									<li class="list-inline-item"><a href="https://www.semanticscholar.org/author/Carmine-Elvezio/2030511"><i class="ai ai-semantic-scholar-square ai"></i></a></li>
+									<li class="list-inline-item"><a href="#"><i class="mdi mdi-email"></i></a></li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="content">
-           <div class="sections">
-                <section class="about active">
-                    <div class="container">
-                        <div class="row align">
-                            <div class="col-12">  <!-- Section Tile -->
-                                <div class="section-title">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="lt">
-                                                <h6>about me</h6>
-                                                <h1>A Few Words <span>About Me</span></h1>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="rt">
-                                                <p>I could describe these conceptions, also impress upon paper all that is living.</p>
-                                            </div>
-                                        </div>
+        </section>
+        <!-- END ABOUT -->
+
+        <!-- START SERVICES -->
+        <section class="section bg-light" id="resume">
+            <div class="container">
+				
+				
+<!--
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2><span class="font-weight-bold">Resume</span></h2>
+                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                        </div>
+                    </div>
+                </div>
+-->
+				
+				
+				<section id="CV" class="slim-container">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Education</h3>
+
+                  <div class="ol-timeline">
+                    <div class="tl-item pub-item with-icon"><span class="item-section">2019-now</span>
+                        <div class="elem-wrapper">
+                            <!--<i class="oli oli-university"></i>!-->
+                            <img src="./images/logos/Columbia_Logo.png" class="img-circle" width="50" height="50" vspace="0">
+                        </div>
+                       <div class="content-wrapper">
+                        <h5 class="title">
+                            <a target="_blank" href="http://www.cs.columbia.edu/">Columbia University</a>
+                        </h5>
+                        <div class="description">
+                          <p>Ph.D. in Computer Science<br>
+                          <!--Advisors: Professor <a target="_blank" href="http://www.cs.columbia.edu/~gravano/">Luis Gravano</a>, Professor <a target="_blank" href="http://www.cs.columbia.edu/~djhsu/">Daniel Hsu</a> !-->
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--
+                    <div class="tl-item pub-item with-icon"><span class="item-section">2019-2020</span>
+                        <div class="elem-wrapper">
+                            <img src="./img/columbia.png" class="img-circle" width="50" height="50" vspace="0">
+                        </div>
+                      <div class="content-wrapper">
+                        <h5 class="title">
+                            <a target="_blank" href="http://www.cs.columbia.edu/">Columbia University</a>
+                        </h5>
+                        <div class="description">
+                          <p>M.Phil. in Computer Science
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    !-->
+                    
+                    <div class="tl-item pub-item with-icon"><span class="item-section">2010-2012</span>
+                        <div class="elem-wrapper">
+                            <!--<i class="oli oli-university"></i>!-->
+                            <img src="./images/logos/Columbia_Logo.png" class="img-circle" width="50" height="50" vspace="0">
+                        </div>
+                      <div class="content-wrapper">
+                        <h5 class="title">
+                            <a target="_blank" href="http://www.cs.columbia.edu/">Columbia University</a>
+                        </h5>
+                        <div class="description">
+                          <p>M.Sc. in Computer Science
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tl-item pub-item with-icon"><span class="item-section">2006-2010</span>
+                      <div class="elem-wrapper">
+                        <img src="./images/logos/NYU_Logo.png" class="img-circle" width="50" height="50" vspace="0">
+                      </div>
+                      <div class="content-wrapper">
+                        <h5 class="title">
+                            <a target="_blank" href="https://engineering.nyu.edu/">NYU - Tandon School of Engineering</a>
+                        </h5>
+                        <div class="description">
+                          <p>B.S. in Computer Science</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h3>Professional Experience</h3>
+
+                  <div class="ol-timeline">
+
+                    <div class="tl-item pub-item with-icon"><span class="item-section">2013-2019</span>
+                      <div class="elem-wrapper">
+                        <img src="./images/logos/Columbia_Logo.png" width="50" height="50" vspace="0">
+                      </div>
+                      <div class="content-wrapper">
+
+                        <h5 class="title">
+                            <a target="_blank" href="http://www.cs.columbia.edu/">Columbia University</a>
+                        </h5>
+                        <div class="description">
+                          <p>Research Staff Associate</p>
+                        </div>
+                      </div>
+                    </div>
+					  
+					  <div class="tl-item pub-item with-icon"><span class="item-section">2010-2013</span>
+                      <div class="elem-wrapper">
+<!--                        <img src="./images/logos/Columbia_Logo.png" class="img-circle" width="67" height="70" vspace="0" hspace="0" style="display:block; margin-top:-10px; margin-left:-4px">-->
+                      </div>
+                      <div class="content-wrapper">
+
+                        <h5 class="title">
+                            <a target="_blank" href="http://www.cs.columbia.edu/">Dedual Enterprises</a>
+                        </h5>
+                        <div class="description">
+                          <p>Consultant</p>
+                        </div>
+                      </div>
+                    </div>
+					  
+					  <div class="tl-item pub-item with-icon"><span class="item-section">2012</span>
+                      <div class="elem-wrapper">
+
+                      </div>
+                      <div class="content-wrapper">
+
+                        <h5 class="title">
+                            <a target="_blank" href="#">AR Chemist</a>
+                        </h5>
+                        <div class="description">
+                          <p>Server Engineer</p>
+                        </div>
+                      </div>
+                    </div>
+					  
+					  <div class="tl-item pub-item with-icon"><span class="item-section">2009-2010</span>
+                      <div class="elem-wrapper">
+                        <img src="./images/logos/NYU_Logo.png" class="img-circle" width="67" height="70" vspace="0" hspace="0" style="display:block; margin-top:-10px; margin-left:-4px">
+                      </div>
+                      <div class="content-wrapper">
+
+                        <h5 class="title">
+                            <a target="_blank" href="https://engineering.nyu.edu/">NYU - Tandon School of Engineering</a>
+                        </h5>
+                        <div class="description">
+                          <p>Research Intern</p>
+                        </div>
+                      </div>
+                    </div>
+
+					  
+                  </div>
+                </div>
+              </div>
+            <br>
+            <br>
+            <br>
+
+                          <div class="row">
+							<div class="text-center header-content mx-auto">
+                                    <div class="mt-4 pt-2">
+                                        <a href="resume/CarmineElvezioResumeLWebsite.pdf" class="btn btn-outline-custom btn-round">Download Cv</a>
                                     </div>
                                 </div>
+                </div>
+
+
+            </div>
+          </section>
+
+				
+				<!--
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="text-center services-boxes rounded p-4 mt-4">
+                            <div class="services-boxes-icon">
+                                <i class="mbri-growing-chart text-custom display-4"></i>
                             </div>
-                            <div class="col-md-6"> <!-- About Me Text Area -->
-                                <ul class="banner-meta"> <!-- Titles -->
-                                    <li>Web Designer</li>  
-                                    <li>Web Developer</li>
-                                    <li>UI/UX Designer</li>
-                                </ul>
-                                <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                    <g>
-                                        <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                    </g>
-                                </svg>
-                                <h2>I'm  Alex Smith Independent <br><span> fullstack  Developer. </span></h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                                <div class="internet-skills">
-                                    <!-- Skill 1 -->
-                                    <div class="skill">
-                                        <h5 class="name">Development</h5> <!-- Skills name -->
-                                        <span class="percentage">82%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 82%;"></div> <!-- Change 82% To Your Average -->
-                                        </div>
-                                    </div>
-
-                                    <!-- Skill 2 -->
-                                    <div class="skill">
-                                        <h5 class="name">UI/UX design</h5> <!-- Skills name -->
-                                        <span class="percentage">100%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 100%;"></div> <!-- Change 100% To Your Average -->
-                                        </div>
-                                    </div>
-
-                                    <!-- Skill 3 -->
-                                    <div class="skill">
-                                        <h5 class="name">Photography</h5> <!-- Skills name -->
-                                        <span class="percentage">77%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 77%;"></div> <!-- Change 77% To Your Average -->
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <ul class="profile"> <!-- My Informations-->
-                                    <i class="la la-briefcase sgh"></i>
-                                    <li><span class="ytr"><i class="la la-user"></i> Name:</span> <span class="rty">Alex Smith</span></li> 
-                                    <li><span class="ytr"><i class="la la-phone"></i> Phone:</span> <span class="rty">(+1) 123 456 7890</span></li> 
-                                    <li><span class="ytr"><i class="la la-map-marker"></i> Residence:</span> <span class="rty">New York, USA</span></li> 
-                                    <li><span class="ytr"><i class="la la-user"></i> Age:</span><span class="rty">27</span></li> 
-                                    <li class="n-m"><span class="ytr"><i class="la la-envelope"></i> Email:</span>  <a href="mailto:"><span class="rty">name@mail.com</span></a></li> 
-                                    <li class="n-m"><span class="ytr"><i class="la la-arrow-right"></i> Freelance:</span> <span class="rty">Available</span></li> 
-                                </ul>
-                            </div>
-                            <div class="col-md-6"> <!-- About Me Image Area -->
-                                <div class="about-image">
-                                    <img src="http://via.placeholder.com/500x650" class="img-fluid" alt="">
-                                </div>
+                            <div class="mt-4">
+                                <h5 class="mb-0">Graphic Design</h5>
+                                <div class="services-title-border"></div>
+                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
                         </div>
-                    </div> 
-                    <div class="services">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="iner-section-title">
-                                        <h3>My Services</h3>
-                                    </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center services-boxes rounded p-4 mt-4">
+                            <div class="services-boxes-icon">
+                                <i class="mbri-hot-cup text-custom display-4"></i>
+                            </div>
+                            <div class="mt-4">
+                                <h5 class="mb-0">Unlimited Color</h5>
+                                <div class="services-title-border"></div>
+                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center services-boxes rounded p-4 mt-4">
+                            <div class="services-boxes-icon">
+                                <i class="mbri-upload text-custom display-4"></i>
+                            </div>
+                            <div class="mt-4">
+                                <h5 class="mb-0">Media Marketing</h5>
+                                <div class="services-title-border"></div>
+                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text-center services-boxes rounded p-4 mt-4">
+                            <div class="services-boxes-icon">
+                                <i class="mbri-layers text-custom display-4"></i>
+                            </div>
+                            <div class="mt-4">
+                                <h5 class="mb-0">Unlimited Wifi</h5>
+                                <div class="services-title-border"></div>
+                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center services-boxes rounded p-4 mt-4">
+                            <div class="services-boxes-icon">
+                                <i class="mbri-website-theme text-custom display-4"></i>
+                            </div>
+                            <div class="mt-4">
+                                <h5 class="mb-0">Responsive Design</h5>
+                                <div class="services-title-border"></div>
+                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-center services-boxes rounded p-4 mt-4">
+                            <div class="services-boxes-icon">
+                                <i class="mbri-edit text-custom display-4"></i>
+                            </div>
+                            <div class="mt-4">
+                                <h5 class="mb-0">Easy to customize</h5>
+                                <div class="services-title-border"></div>
+                                <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				-->
+				
+				
+            </div>
+        </section>
+        <!-- END SERVICES -->
+
+        <!-- START CTA -->
+		<!--
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2>I Am Available For Freelancer.</h2>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="#" class="btn btn-custom">Hire Me!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		-->
+        <!-- END CTA -->
+
+        <!-- START CLIENT -->
+		<!--
+        <section class="section bg-light" id="client">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2>Our <span class="font-weight-bold">Client</span></h2>
+                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 pt-4">
+                    <div class="col-lg-12">
+                        <div id="owl-demo" class="owl-carousel">
+                            <div class="text-center testi_boxes mx-auto">
+                                <div class="tam_testi_icon text-custom">
+                                    <i class="mbri-quote-left"></i>
                                 </div>
-
-                                <div class="owl-carousel services-carousel">
-
-                                    <div class="service-box">   <!-- Service Box -->
-                                        <i class="pe-7s-paint-bucket"></i> <!-- Service Icon -->
-                                        <h3>web design</h3> <!-- Service name -->
-                                        <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                            <g>
-                                                <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                            </g>
-                                        </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                        <div class="big-num">01</div> <!-- Service number -->
+                                <div class="mt-2">
+                                    <div>
+                                        <img src="images/testi/testi-1.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
                                     </div>
-
-                                    <div class="service-box">   <!-- Service Box -->
-                                        <i class="pe-7s-tools"></i> <!-- Service Icon -->
-                                        <h3>Easy To Setup</h3> <!-- Service name -->
-                                        <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                            <g>
-                                                <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                            </g>
-                                        </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                        <div class="big-num">02</div> <!-- Service number -->
+                                    <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                                    <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
+                                </div>
+                            </div>
+                            <div class="text-center testi_boxes mx-auto">
+                                <div class="tam_testi_icon text-custom">
+                                    <i class="mbri-quote-left"></i>
+                                </div>
+                                <div class="mt-2">
+                                    <div>
+                                        <img src="images/testi/testi-2.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
                                     </div>
-
-                                    <div class="service-box">   <!-- Service Box -->
-                                        <i class="pe-7s-medal"></i> <!-- Service Icon -->
-                                        <h3>Brand Building</h3> <!-- Service name -->
-                                        <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                            <g>
-                                                <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                            </g>
-                                        </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                        <div class="big-num">03</div> <!-- Service number -->
+                                    <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                                    <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
+                                </div>
+                            </div>
+                            <div class="text-center testi_boxes mx-auto">
+                                <div class="tam_testi_icon text-custom">
+                                    <i class="mbri-quote-left"></i>
+                                </div>
+                                <div class="mt-2">
+                                    <div>
+                                        <img src="images/testi/testi-3.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
                                     </div>
-
-                                    <div class="service-box no-margin">   <!-- Service Box -->
-                                        <i class="pe-7s-paint-bucket"></i> <!-- Service Icon -->
-                                        <h3>web design</h3> <!-- Service name -->
-                                        <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                            <g>
-                                                <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                            </g>
-                                        </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                        <div class="big-num">04</div> <!-- Service number -->
-                                    </div>
-
-                                    <div class="service-box no-margin">   <!-- Service Box -->
-                                        <i class="pe-7s-tools"></i> <!-- Service Icon -->
-                                        <h3>Easy To Setup</h3> <!-- Service name -->
-                                        <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                            <g>
-                                                <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                            </g>
-                                        </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                        <div class="big-num">05</div> <!-- Service number -->
-                                    </div>
-                                    <div class="service-box no-margin">   <!-- Service Box -->
-                                        <i class="pe-7s-way"></i> <!-- Service Icon -->
-                                        <h3>Management</h3> <!-- Service name -->
-                                        <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                            <g>
-                                                <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                            </g>
-                                        </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                        <div class="big-num">06</div> <!-- Service number -->
-                                    </div>
+                                    <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                                    <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container"> <!-- Testimonials Area -->
-                        <div class="testimonials">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="iner-section-title">
-                                        <h3>testimonials</h3>
-                                    </div>
+                </div>
+            </div>
+        </section>
+		-->
+        <!-- END CLIENT -->
+
+        <!--START WORK -->   
+        <section class="section text-center" id="work">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2><span class="font-weight-bold">Projects</span></h2>
+                            <p class="text-muted mx-auto section-subtitle mt-3">I work on projects across a number of different domains and technologies, with many students and companies. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 ">
+                    <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
+                        <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
+                        <li class="list-inline-item"><a class="" data-filter=".seo">Seo</a></li>
+                        <li class="list-inline-item"><a class="" data-filter=".webdesign">Webdesign</a></li>
+                        <li class="list-inline-item"><a class="" data-filter=".WORK">WORK</a></li>
+                        <li class="list-inline-item"><a class="" data-filter=".wordpress">Wordpress</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-4 work-filter">
+                    <div class="col-lg-4 work_item webdesign wordpress">
+                        <a href="images/works/1.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/1.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                                 </div>
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="testimonial-box">
-                                        <i class="la la-quote-left"></i>
-                                        <p>in a professional context it often that "private or corparate clients publication to be made in a professional context it" often happens that private 👍</p>
-                                        <i class="la la-quote-right"></i>
-                                        <div class="client-info">
-                                            <div class="client-image">
-                                                <img src="http://via.placeholder.com/60x60" alt="" class="img-fluid">
-                                            </div>
-                                            <p>ahmed mohamed<span>marketing head</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-box">
-                                        <i class="la la-quote-left"></i>
-                                        <p>in a professional context it often that "private or corparate clients publication to be made in a professional context it" often happens that private 🔥</p>
-                                        <i class="la la-quote-right"></i>
-                                        <div class="client-info">
-                                            <div class="client-image">
-                                                <img src="http://via.placeholder.com/60x60" alt="" class="img-fluid">
-                                            </div>
-                                            <p>ahmed mohamed<span>marketing head</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-box">
-                                        <i class="la la-quote-left"></i>
-                                        <p>in a professional context it often that "private or corparate clients publication to be made in a professional context it" often happens that private 👍</p>
-                                        <i class="la la-quote-right"></i>
-                                        <div class="client-info">
-                                            <div class="client-image">
-                                                <img src="http://via.placeholder.com/60x60" alt="" class="img-fluid">
-                                            </div>
-                                            <p>ahmed mohamed<span>marketing head</span></p>
-                                        </div>
-                                    </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item WORK webdesign seo">
+                        <a href="images/works/2.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/2.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item seo wordpress">
+                        <a href="images/works/3.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/3.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item wordpress WORK webdesign">
+                        <a href="images/works/4.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/4.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item seo webdesign">
+                        <a href="images/works/5.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/5.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item devlopment webdesign">
+                        <a href="images/works/6.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/6.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END WORK -->
+		
+		<!-- START PUBLICATIONS -->
+		<section class="section bg-light" id="publications">
+            <div class="container">   
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2>Our <span class="font-weight-bold">Blog</span></h2>
+                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                        </div>
+                    </div>
+                </div>                 
+            </div>
+        </section>
+		<!-- END PUBLICATIONS -->
+
+        <!-- START BLOG -->
+		<!--
+        <section class="section bg-light" id="blog">
+            <div class="container">   
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2>Our <span class="font-weight-bold">Blog</span></h2>
+                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                        </div>
+                    </div>
+                </div>                 
+                <div class="row mt-5">
+                    <div class="col-lg-4 mt-3">
+                        <div class="rounded blog_color p-2">
+                            <div class="img_blog">
+                                <img src="images/blog/blog-1.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                            </div>
+                            <div class="content_blog pt-3 pb-3">
+                                <div>
+                                    <h5 class="font-weight-bold mb-0"><a href="#" class="text-white">There are many variations</a></h5>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="h6 text-muted date_blog mb-0">11 March 2018 <a href="#" class="text-custom font-weight-bold">By Kerri</a></p>
+                                    <p class="mt-3 desc_blog text-muted">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+                                    <p class="h6 mb-0"><a href="#" class="text-muted font-weight-bold">Read More...</a></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="fun-facts">
-                            <div class="row"> <!-- Fun fact Area -->
-                                <div class="col-12">
-                                    <div class="iner-section-title">
-                                        <h3>Fun Facts</h3>
-                                    </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class="rounded blog_color p-2">
+                            <div class="img_blog">
+                                <img src="images/blog/blog-2.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                            </div>
+                            <div class="content_blog pt-3 pb-3">
+                                <div>
+                                    <h5 class="font-weight-bold mb-0"><a href="#" class="text-white">Contrary to popular belief</a></h5>
                                 </div>
-                                <div class="col-sm-6 col-xl-3 col-md-6 col-lg-4 subpage-block">
-                                    <div class="fun-fact-block ">
-                                        <div class="overlay"></div>
-                                    <i class="pe-7s-icon pe-7s-smile"></i> 
-                                    <h4>Happy Clients</h4> 
-                                    <span class="fun-value">1,024</span> 
-                                    </div>
+                                <div class="mt-3">
+                                    <p class="h6 text-muted date_blog mb-0">18 March 2018 <a href="#" class="text-custom font-weight-bold">By Kerri</a></p>
+                                    <p class="mt-3 desc_blog text-muted">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+                                    <p class="h6 mb-0"><a href="#" class="text-muted font-weight-bold">Read More...</a></p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class="rounded blog_color p-2">
+                            <div class="img_blog">
+                                <img src="images/blog/blog-3.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                            </div>
+                            <div class="content_blog pt-3 pb-3">
+                                <div>
+                                    <h5 class="font-weight-bold mb-0"><a href="#" class="text-white">Lorem Ipsum is not simply</a></h5>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="h6 text-muted date_blog mb-0">22 March 2018 <a href="#" class="text-custom font-weight-bold">By Kerri</a></p>
+                                    <p class="mt-3 desc_blog text-muted">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+                                    <p class="h6 mb-0"><a href="#" class="text-muted font-weight-bold">Read More...</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		-->
+        <!-- END BLOG -->
         
-                                <div class="col-sm-6 col-xl-3 col-md-6 col-lg-4 subpage-block">
-                                    <div class="fun-fact-block">
-                                        <div class="overlay"></div>
-                                    <i class="pe-7s-icon pe-7s-alarm"></i> 
-                                    <h4>Working Hours</h4> 
-                                    <span class="fun-value">6,256</span> 
-                                    </div>
-                                </div>
-        
-                                <div class="col-sm-6 col-xl-3 col-md-6 col-lg-4 subpage-block">
-                                    <div class="fun-fact-block">
-                                        <div class="overlay"></div>
-                                    <i class="pe-7s-icon pe-7s-medal"></i> 
-                                    <h4>Awards Won</h4> 
-                                    <span class="fun-value">21</span> 
-                                    </div>
-                                </div>
-        
-                                <div class="col-sm-6 col-xl-3 col-md-6 col-lg-4 subpage-block">
-                                    <div class="fun-fact-block ln">
-                                        <div class="overlay"></div>
-                                    <i class="pe-7s-icon pe-7s-coffee"></i> 
-                                    <h4>Coffee Consumed</h4> 
-                                    <span class="fun-value">20,000</span> 
-                                    </div>
-                                </div> 
+        <!-- START CONTACT -->
+		<!--
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2><span class="font-weight-bold">Contact</span> Us</h2>
+                            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="text-center">
+                            <div>
+                                <i class="mbri-mobile2 text-custom h1"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h5 class="mb-0 contact_detail-title font-weight-bold">Call Us On</h5>
+                                <p class="text-muted">+985 123 7856</p>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="resume">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12"> <!-- Section Title -->
-                                <div class="section-title">
-                                    <div class="row align">
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="lt">
-                                                <h6>My resume</h6>
-                                                <h1>Experience and<span> Education</span></h1>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="rt">
-                                                <p>I could describe these conceptions, also impress upon paper all that is living.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-4">
+                        <div class="text-center">
+                            <div>
+                                <i class="mbri-letter text-custom h1"></i>
                             </div>
-                            <div class="col-md-6 col-lg-6"> <!-- Experience -->
-                                <div class="iner-section-title">
-                                    <h3>Experience</h3>
-                                </div>
-                                <div class="my-resume">
-                                    <div class="rel-resume"> <!-- First -->
-                                        <div class="history-top"> 2018 - 2019</div> <!-- Time -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                                <span class="la la-briefcase"></span> <!-- Icon -->
-                                                    <div class="content-exper">
-                                                    <h4>UI/UX Designer</h4> <!-- Job Title -->
-                                                    <div class="history">Google INC | New York</div> <!-- company name -->
-                                                </div>
-                                            </div>
-                                            <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                                <g>
-                                                  <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                                </g>
-                                            </svg>
-                                            <div class="resume-footer"> <!-- Paragraph -->
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna.</p> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rel-resume"> <!-- Second -->
-                                        <div class="history-top"> 2017 - 2018</div> <!-- Time -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                            <span class="la la-briefcase"></span> <!-- Icon -->
-                                            <div class="content-exper">
-                                                <h4>Web Designer</h4> <!-- Job name -->
-                                                <div class="history">Facebook INC | New York</div> <!-- Company name -->
-                                            </div>
-                                            </div>
-                                            <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                                <g>
-                                                  <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                                </g>
-                                            </svg>
-                                            <div class="resume-footer"> <!-- Paragraph -->
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna.</p> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rel-resume"> <!-- Second -->
-                                        <div class="history-top"> 2017 - 2018</div> <!-- Time -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                            <span class="la la-briefcase"></span> <!-- Icon -->
-                                            <div class="content-exper">
-                                                <h4>Web Designer</h4> <!-- Job name -->
-                                                <div class="history">Facebook INC | New York</div> <!-- Company name -->
-                                            </div>
-                                            </div>
-                                            <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                                <g>
-                                                  <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                                </g>
-                                            </svg>
-                                            <div class="resume-footer"> <!-- Paragraph -->
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna.</p> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6"> <!-- Education -->
-                                <div class="iner-section-title">
-                                    <h3>Education</h3>
-                                </div>
-                                <div class="my-resume">
-                                    <div class="rel-resume"> <!-- First -->
-                                        <div class="history-top"> 2015 - 2017</div> <!-- Time -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                                <span class="la la-book"></span> <!-- Icon -->
-                                                    <div class="content-exper">
-                                                    <h4>new york university</h4> <!-- university name -->
-                                                    <div class="history">Bachelor Degree | New York</div> <!-- Skill Name -->
-                                                </div>
-                                            </div>
-                                            <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                                <g>
-                                                  <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                                </g>
-                                            </svg>
-                                            <div class="resume-footer"> <!-- Paragraph -->
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna.</p> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="rel-resume"> <!-- Second -->
-                                        <div class="history-top"> 2011 - 2015</div>
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                                <span class="la la-book"></span>
-                                                <div class="content-exper">
-                                                    <h4>new york university</h4>
-                                                    <div class="history">Bachelor Degree | New York</div>
-                                                </div>
-                                            </div>
-                                            <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                                <g>
-                                                  <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                                </g>
-                                            </svg>
-                                            <div class="resume-footer">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna.</p> 
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="rel-resume"> <!-- First -->
-                                        <div class="history-top"> 2015 - 2017</div> <!-- Time -->
-                                        <div class="resume-item">
-                                            <div class="resume-head">
-                                                <span class="la la-book"></span> <!-- Icon -->
-                                                    <div class="content-exper">
-                                                    <h4>new york university</h4> <!-- university name -->
-                                                    <div class="history">Bachelor Degree | New York</div> <!-- Skill Name -->
-                                                </div>
-                                            </div>
-                                            <svg x="0px" y="0px" viewBox="0 0 100 19.5">
-                                                <g>
-                                                  <polygon points="79.3,18 69.6,8.3 60,18 50.3,8.3 40.6,18 31,8.3 21.3,18 11.7,8.3 3.4,16.5 0.6,13.7 11.7,2.7 21.3,12.3 31,2.7 								40.6,12.3 50.3,2.7 60,12.3 69.6,2.7 79.3,12.3 88.9,2.7 100,13.6 97.2,16.4 89,8.3 "></polygon>
-                                                </g>
-                                            </svg>
-                                            <div class="resume-footer"> <!-- Paragraph -->
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna.</p> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <div class="mt-50"></div>
-                            <div class="col-md-6 col-lg-6"> <!-- Skills -->
-                                <div class="iner-section-title">
-                                    <h3>Design Languages</h3>
-                                </div>
-                                <div class="internet-skills dl">
-                                    <!-- Skill 1 -->
-                                    <div class="skill">
-                                        <h5 class="name">Html</h5> <!-- Skills name -->
-                                        <span class="percentage">82%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 82%;"></div> <!-- Change 82% To Your Average -->
-                                        </div>
-                                    </div>
-
-                                    <!-- Skill 2 -->
-                                    <div class="skill">
-                                        <h5 class="name">css</h5> <!-- Skills name -->
-                                        <span class="percentage">100%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 100%;"></div> <!-- Change 100% To Your Average -->
-                                        </div>
-                                    </div>
-
-                                    <!-- Skill 3 -->
-                                    <div class="skill">
-                                        <h5 class="name">js</h5> <!-- Skills name -->
-                                        <span class="percentage">77%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 77%;"></div> <!-- Change 77% To Your Average -->
-                                        </div>
-                                    </div>
-                                    <!-- Skill 4 -->
-                                    <div class="skill">
-                                        <h5 class="name">jquery</h5> <!-- Skills name -->
-                                        <span class="percentage">77%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 77%;"></div> <!-- Change 77% To Your Average -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6"> <!-- Skills -->
-                                <div class="iner-section-title">
-                                    <h3>Programing Languages</h3>
-                                </div>
-                                <div class="internet-skills pl">
-                                    <!-- Skill 1 -->
-                                    <div class="skill">
-                                        <h5 class="name">Php</h5> <!-- Skills name -->
-                                        <span class="percentage">82%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 82%;"></div> <!-- Change 82% To Your Average -->
-                                        </div>
-                                    </div>
-
-                                    <!-- Skill 2 -->
-                                    <div class="skill">
-                                        <h5 class="name">c++</h5> <!-- Skills name -->
-                                        <span class="percentage">100%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 100%;"></div> <!-- Change 100% To Your Average -->
-                                        </div>
-                                    </div>
-
-                                    <!-- Skill 3 -->
-                                    <div class="skill">
-                                        <h5 class="name">mysql</h5> <!-- Skills name -->
-                                        <span class="percentage">77%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 77%;"></div> <!-- Change 77% To Your Average -->
-                                        </div>
-                                    </div>
-                                    <!-- Skill 4 -->
-                                    <div class="skill">
-                                        <h5 class="name">wordpress</h5> <!-- Skills name -->
-                                        <span class="percentage">77%</span> <!-- skills average -->
-                                        <div class="progress_bg">
-                                            <div class="progress_bar" style="width: 77%;"></div> <!-- Change 77% To Your Average -->
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="mt-3">
+                                <h5 class="mb-0 contact_detail-title font-weight-bold">Email Us At</h5>
+                                <p class="text-muted">Website.Kerri@gmail.com</p>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="portfolio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12"> <!-- Section Title -->
-                                <div class="section-title">
-                                    <div class="row align">
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="lt">
-                                                <h6>My portfolio</h6>
-                                                <h1>Amazing <span> work</span></h1>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="rt">
-                                                <p>I could describe these conceptions, also impress upon paper all that is living.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-4">
+                        <div class="text-center">
+                            <div>
+                                <i class="mbri-pin text-custom h1"></i>
                             </div>
-                            <div class="col-md-2">
-                                <ul class="portfolio-filter">
-                                    <li class="filter active" data-filter="all">All Works</li>
-                                    <li class="filter" data-filter=".photo">Photography</li>
-                                    <li class="filter" data-filter=".brand">Branding</li>
-                                    <li class="filter" data-filter=".fs">Fashion</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-10">
-                                <div class="grid gallery row">
-                                    <!-- portfolio item -->
-                                    <div class="col-lg-4 col-12 col-sm-6 col-md-6 photo brand mix">
-                                        <a href="http://via.placeholder.com/600x600">
-                                            <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                    <div class="col-lg-4 col-12 col-sm-6 col-md-6 fs mix">
-                                        <a href="http://via.placeholder.com/600x600">
-                                            <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                    <div class="col-lg-4 col-12 col-sm-6 col-md-6 photo fs mix">
-                                        <a href="http://via.placeholder.com/600x600">
-                                            <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                    <div class="col-lg-4 col-12 col-sm-6 col-md-6 brand fs mix">
-                                        <a href="http://via.placeholder.com/600x600">
-                                            <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                   <div class="col-lg-4 col-12 col-sm-6 col-md-6 photo mix ">
-                                        <a href="http://via.placeholder.com/600x600">
-                                           <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                    <div class="col-lg-4 col-12 col-sm-6 col-md-6  brand mix">
-                                        <a href="http://via.placeholder.com/600x600ghttp://via.placeholder.com/600x600">
-                                            <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                    <div class="col-lg-4 col-12 col-sm-6 col-md-6 brand fs mix">
-                                        <a href="http://via.placeholder.com/600x600">
-                                            <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                   <div class="col-lg-4 col-12 col-sm-6 col-md-6 photo mix ">
-                                        <a href="http://via.placeholder.com/600x600">
-                                           <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- portfolio item -->
-                                    <div class="col-lg-4 col-12 col-sm-6 col-md-6  brand mix">
-                                        <a href="http://via.placeholder.com/600x600">
-                                            <div class="img-box">
-                                                <img src="http://via.placeholder.com/600x600" alt="" class="img-fluid">
-                                                <div class="portfolio-text">
-                                                    <div class="text-port">
-                                                        <h2>Cairs Root</h2>
-                                                        <p>Photography</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="mt-3">
+                                <h5 class="mb-0 contact_detail-title font-weight-bold">Visit Office</h5>
+                                <p class="text-muted">202, Grasselli Street , Conway.</p>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="blog">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12"> <!-- Section Title -->
-                                <div class="section-title">
-                                    <div class="row align">
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="lt">
-                                                <h6>My blog</h6>
-                                                <h1>Amazing <span> work</span></h1>
-                                            </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <div class="form-kerri contact_form">
+                            <div id="message"></div>
+                            <form method="post" action="php/contact.php" name="contact-form" id="working_form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." >
                                         </div>
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="rt">
-                                                <p>I could describe these conceptions, also impress upon paper all that is living.</p>
-                                            </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." >
+                                        </div>
+                                    </div>                                
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <input type="text" class="form-control" id="subject" placeholder="Your Subject.." />
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>How To Make Your Ideas Became True</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
-                                    </div>
-                
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li>  <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>The Best Sale Marketer Of The Next Year</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>What Has Happened to All of the Web Design Ideas?</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-lg-12 text-right">
+                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom text-uppercase" value="Submit">
+                                        <div id="simple-msg"></div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+		-->
+        <!-- END CONTACT -->
 
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>The Best Sale Marketer Of The Next Year</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>The Best Sale Marketer Of The Next Year</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>How To Make Your Ideas Became True</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>What Has Happened to All of the Web Design Ideas?</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>How To Create Great Logo For Your Business</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="http://via.placeholder.com/350x335" class="img-fluid" alt="blog"></a> <!-- Blog Image -->
-                                    </div>
-                                    <div class="blog-info">
-                                        <ul class="date">
-                                            <li>25 NOV 19 </li> <!-- Date -->
-                                            <li><a href="#">Markting</a></li> <!-- Tag -->
-                                         </ul>
-                                        <div class="title-post">
-                                            <a href="#"><h5>What Has Happened to All of the Web Design Ideas?</h5></a> <!-- Blog title -->
-                                        </div>
-                                        <div class="post-text"> <!-- Blog paragraph -->
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+        <!--START FOOTER-->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-12">
+                        <div class="text-center text-white footer-alt">
+                            <ul class="list-unstyled list-inline mb-3">
+<li class="list-inline-item"><a href="www.linkedin.com/in/carmine-elvezio-23711a14"><i class="mdi mdi-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/ce2236"><i class="mdi mdi-github-circle"></i></a></li>
+								  <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=kp4b3qQAAAAJ"><i class="ai ai-google-scholar-square ai-1x"></i></a></li>
+									<li class="list-inline-item"><a href="https://www.researchgate.net/profile/Carmine_Elvezio"><i class="ai ai-researchgate ai"></i></a></li>
+									<li class="list-inline-item"><a href="https://www.semanticscholar.org/author/Carmine-Elvezio/2030511"><i class="ai ai-semantic-scholar-square ai"></i></a></li>
+									<li class="list-inline-item"><a href="#"><i class="mdi mdi-email"></i></a></li>
+                            </ul>
+                            <p class="text-muted mb-0"> 2020 &copy; Carmine Elvezio. Design by SRBThemes.</p>
                         </div>
                     </div>
-                </section>
-                <section class="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12"> <!-- Section Title -->
-                                <div class="section-title">
-                                    <div class="row align">
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="lt">
-                                                <h6>Contact Me</h6>
-                                                <h1>Let's <span> Talk</span></h1>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="rt">
-                                                <p>I could describe these conceptions, also impress upon paper all that is living.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div id="map"></div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="contact-info">
-                                    <h2>how to find us.</h2>
-                                    <h5>Contact Us:</h5>
-                                    <ul class="contact-info-list">
-                                        <li>121 Street, Cairo - Egypt</li>
-                                        <li>Email: hello@website.com</li>
-                                        <li>Phone: +20 010 699 664 54</li>
-                                    </ul>
-                                    <h5>Follow Us:</h5>
-                                    <ul class="social-links">
-                                        <li><a href="#"> <i class="la la-facebook"></i> </a> </li>
-                                        <li><a href="#"> <i class="la la-github"></i> </a> </li>
-                                        <li> <a href="#"> <i class="la la-youtube"></i> </a> </li>
-                                        <li><a href="#"> <i class="la la-twitter"></i> </a> </li>
-                                        <li><a href="#"> <i class="la la-linkedin"></i> </a> </li>
-            
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="First Name">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Last Name">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Your Email Address">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="where are you from?">
-                                        </div>
-                                        <div class="col-md-12">
-                                            <textarea placeholder="Enter Your Message"></textarea>
-                                        </div>
-                                        <div class="align">
-                                            <div class="col-sm-12 col-md-8 ">
-                                                <p>
-                                                    we all know how important your information is.<br>
-                                                    they are always safe with us.</p>
-                                            </div>
-                                            <div class="col-sm-12 col-md-4 ">
-                                                <input type="submit" class="tiba-tbn" value="Send Message">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-           </div>
-        </div>
-    </div>
+                </div>
+            </div>
+        </footer>
+        <!--END FOOTER-->
 
-
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/modernizr.min.js"></script>
-    <script src="js/jquery.hoverdir.js"></script>
-    <script src="js/jquery.mixitup.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhrdEzlfpnsnfq4MgU1e1CCsrvVx2d59s"></script>
-    <script src="js/gmaps.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
+        <!-- Back To Top -->    
+        <a href="#" class="back_top"> <i class="mdi mdi-chevron-up"> </i> </a>
+      
+        <!-- JAVASCRIPTS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!--EASING JS-->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <!--PORTFOLIO FILTER JS-->
+        <script src="js/isotope.js"></script>
+        <!-- Magnific Popup Js -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- TYPED -->
+        <script src="js/typed.js"></script>
+        <!-- OWL CAROUSEL -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- CONTACT JS -->
+        <script src="js/contact.js"></script>
+        <!--CUSTOM JS-->
+        <script src="js/custom.js"></script>
+    </body>
 </html>
