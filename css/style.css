@@ -1375,6 +1375,10 @@ ul.np {
   background: white;
 }
 
+/*===========================
+        15. HOVER
+=============================*/
+
 .static:hover {
   opacity:0;
 }
@@ -1384,4 +1388,25 @@ ul.np {
   height:  105%;
   margin-right: 1%;
   margin-bottom: 1%;
+}
+
+/*======================
+        16.Expanding Abstract
+========================*/
+label {
+  color: #007bff;
+}
+
+label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #007bff;
+}
+
+#hidden {
+  display: none;
+}
+
+:checked~#hidden {
+  display: block;
 }
