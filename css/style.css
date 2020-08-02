@@ -321,7 +321,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-    background-image: url(../images/header-bg3.jpg);
+    background-image: url(../images/header-bg.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
